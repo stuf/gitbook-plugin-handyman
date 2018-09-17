@@ -1,0 +1,35 @@
+{
+  "name": "gitbook-plugin-handyman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "gitbook": ">2.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "name": {
+        "type": "string",
+        "default": "A default value"
+      },
+      "example": {
+        "type": "string",
+        "default": "A default example"
+      },
+      "file": {
+        "type": "string"
+      },
+      "signature": {
+        "type": "string",
+        "default": "a"
+      },
+      "returnType": {
+        "type": "string",
+        "default": "a"
+      }
+    }
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
